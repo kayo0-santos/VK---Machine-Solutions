@@ -1,0 +1,90 @@
+@media (max-width: 1141px) {
+    
+    .cabecalho {
+        height: 125px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .logo {
+        justify-content: center;
+        height: 80px;
+        width: 80px;
+    }
+
+    .cabecalho .menu li a {
+        justify-content: center;
+        padding: 0px;
+        font-size: medium;
+    }
+
+    .home .informacoes {
+        padding: 30px;
+    }
+
+    .home .informacoes img {
+        max-width: 120px;
+    }
+
+    .home .informacoes .titulo {
+
+        font-size: 40px;
+    }
+
+    .btn-comprar {
+        width: 235px;
+    }
+
+    .compre-ja .foto-da-maquina {
+        width: 100%;
+    }
+
+    .compre-ja .cartao {
+        width: 70%;
+    }
+}
+@media (max-width: 815px) {
+
+    .compre-ja {
+        padding: 30px;
+}
+
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .foto-da-maquina {
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 35px;
+    }
+
+    .btn-produtos {
+        margin-top: 2px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        width: 130%;
+    }
+
+    }
+
+@media (max-width: 480px) {
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
